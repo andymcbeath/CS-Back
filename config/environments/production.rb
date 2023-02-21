@@ -60,7 +60,6 @@ Rails.application.configure do
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
-  config.secret_key_base = "1a2eb6abbdc1c29cefa99e69deb009fb229a59ef33d6efc07a3af29cda8353d345dbbc5a5f47e8c74ff6c8e635477583d84164e92e621948cd41a5a8c7fa8d9c"
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true
