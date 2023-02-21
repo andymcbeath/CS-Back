@@ -46,4 +46,3 @@ group :development do
   # gem "spring"
 end
 
-gem 'mail_form'
