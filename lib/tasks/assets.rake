@@ -1,7 +1,5 @@
 namespace :assets do
-  desc "Precompile assets"
-  task :precompile => :environment do
-    Rake::Task["assets:precompile:nondigest"].invoke
-    Rake::Task["assets:precompile:digest"].invoke
+  desc "I needed to pass Ruby Railway, nixpacks needs this to deploy"
+  task precompile: :environment do
   end
 end
